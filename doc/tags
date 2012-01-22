@@ -1,0 +1,7 @@
+mml	mml.txt	/*mml*
+mml.txt	mml.txt	/*mml.txt*
+mml.vim	mml.txt	/*mml*
+mml-commands	mml.txt	/*mml-commands*
+mml-contents	mml.txt	/*mml-contents*
+mml-intro	mml.txt	/*mml-intro*
+mml-:MmlMake	mml.txt	/*mml-:MmlMake*

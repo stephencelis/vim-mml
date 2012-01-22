@@ -1,0 +1,36 @@
+*mml.txt* MML (Music Macro Language) for VIM        *mml*
+
+Author:  Stephen Celis <http://stephencelis.com>  *mml-author*
+License: Same terms as Vim itself (see |license|)
+
+
+CONTENTS                                          *mml-contents*
+
+|mml-intro|                 Introduction
+|mml-commands|              Commands
+
+{Vi does not have any of this}
+
+
+INTRODUCTION                                      *mml-intro*
+
+The MML plug-in provides syntax highlighting and simple compilation of Music
+Macro Language (MML) files.
+
+
+COMMANDS                                          *mml-commands*
+
+These commands are local to MML files.
+
+                                                  *mml-:MmlMake*
+:MmlMake                  Compiles the current MML file into an NES Sound
+                          Format (NSF) file (saved in the same directory as
+                          the MML). Opens/plays the compiled file (on OS X,
+                          assuming Nestopia
+                          <http://bannister.org/software/nestopia.htm> or
+                          Audio Overload
+                          <http://bannister.org/software/ao.htm> are
+                          installed.
+
+
+vim:tw=78:ft=help:
