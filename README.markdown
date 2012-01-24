@@ -11,7 +11,6 @@ autocmd FileType mml nnoremap <leader>m :MmlMake<cr>
 ```
 
 
-
 ## Installation
 
 I recommend using either [pathogen.vim][2-1] or [Vundle][2-2].
@@ -36,7 +35,8 @@ If you're using [Vundle][2-2], add the following line to your `~/.vimrc`
 Bundle 'stephencelis/vim-mml'
 ```
 
-Then, merely `:source $MYVIMRC` and `:BundleInstall`.
+Then, `:source $MYVIMRC` and `:BundleInstall`.
+
 
 ## Dependencies
 
@@ -64,7 +64,7 @@ Then `:w`, `:MmlMake`, and...!
 
 ## Related Links
 
-* [Shaun Inman][4-1] made a [TextMate Bundle][4-2] and mirrors an
+* [Shaun Inman][4-1] made a [TextMate Bundle][4-2] and mirrors an excellent
   [MML Reference][4-3].
 
 
