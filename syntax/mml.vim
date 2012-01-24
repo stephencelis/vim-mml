@@ -99,8 +99,6 @@ syntax region  mmlLoop             start="\v\|:" end="\v:\|\d*"
 syntax match   mmlLoopBracket      "\v\|:|:\|\d*"
 syntax match   mmlLoopBracket      "\vL"
 
-highlight default link mmlLoop Error
-
 " Numbers:
 "
 syntax match   mmlNumber           "\v\$[0-9A-F]{4}"
